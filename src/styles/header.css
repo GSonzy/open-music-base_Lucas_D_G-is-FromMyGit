@@ -1,0 +1,23 @@
+.logo-site__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.dark__controller{
+    border: none;
+    border-radius: var( --radius-1);
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-grey-7);
+}
+
+#img__sun-moon{
+    width: 25px;
+    height: 25px;
+    filter:invert(50%);
+
+}

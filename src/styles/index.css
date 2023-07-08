@@ -1,0 +1,150 @@
+@import url("./header.css");
+
+.main__container {
+    width: 100%;
+
+}
+
+.gender__controller {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gender__music-title{
+    padding-bottom: 20px;
+}
+
+.controller-button__gender {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button__gender {
+    border-radius: 5px;
+    border: solid 1px var(--color-grey-8);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: var(--font-3);
+    font-weight: 600;
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-2);
+}
+
+.button__gender:hover {
+    color: var(--color-fixed);
+    border: solid 1px var(--color-grey-0);
+    background-color: var(--color-actived-fixed);
+}
+
+
+.organize__input-value-price{
+    width: 675px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: var(--font-3); */
+}
+
+.value__org{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 15px;
+}
+
+.dollar-sing__value{
+    margin-left: 5px;
+}
+
+.price__value{
+    width: 30px;
+}
+
+.price__to-define{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+
+.price__title{
+    margin-bottom: 15px;
+}
+
+#price__input{
+    width: 100%;
+}
+
+.found__albuns{
+    margin-bottom: 30px;
+}
+
+.main__list{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.card__album{
+    height:260px;
+    width:290px;
+    margin-bottom: 50px;
+    list-style-type: none;
+    border-radius: var(--radius-1);
+    background-color: var(--color-grey-8);
+    
+}
+
+.card__album:hover{
+    background-color: var(--color-grey-mod-1);
+}
+
+.image__album{
+    width: 290px;
+    height: 110px;
+    border-radius: 0.25rem 0.25rem 0rem 0rem ;
+}
+
+.organize__Tittle{
+    display: flex;
+    margin: 20px 0px 20px 10px;
+    width: 100%;
+}
+
+.band__album{
+    width: 75%;
+    
+}
+
+.title__album{
+    width: 85%;
+    margin-left: 10px;
+
+}
+.organize__price{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.button-pay__album{
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 700;
+    /* margin-left: 50px; */
+    border: solid 1px var(--color-grey-8);
+    font-size: var(--font-3);
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-2);
+}
